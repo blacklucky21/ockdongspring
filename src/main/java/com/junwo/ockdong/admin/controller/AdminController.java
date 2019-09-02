@@ -19,5 +19,11 @@ public class AdminController {
 		
 		return"admin/Payment/adminPayment";
 	}
+	
+	@RequestMapping("PaymentTotal.do")
+	public String paymentTotal() {
+		
+		return"admin/payment/PaymentTotalList";
+	}
 
 }
