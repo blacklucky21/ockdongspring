@@ -1,18 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="${pageContext.request.contextPath }/css/cart/CartView.css">
+<link rel="stylesheet" href="resources/css/cart/CartView.css">
 <style>
 
 
 </style>
 </head>
 <body>
-	<jsp:include page="/views/header/header.jsp"/>
+	<c:import url="../header/header.jsp"/>
 	<div class="content" style="width:100%; text-align:center">
 	
 	<div class="order-page result-page" style="display:inline-block">
@@ -135,7 +136,7 @@
                     <p>
                         <span class="detail">총 <em>2</em>개의 상품금액 <strong>97,000</strong>원</span>
                         <span><img src="../../img/etc/plus.png" alt="더하기">배송비 <strong>0</strong>원</span>
-                        <span class="total"><img src="../../img/etc/total.png" alt="합계"><strong>97,000</strong>원
+                        <span class="total"><img src="resources/img/etc/total.png" alt="합계"><strong>97,000</strong>원
                         </span>
                     </p>
                     <span class="mileage">적립예정 마일리지 : <span>0</span> 원</span>
@@ -143,6 +144,6 @@
             </div>
 </div>
 	</div>
-	<jsp:include page="/views/footer/footer.jsp"/>
+	<c:import url="../footer/footer.jsp"/>
 </body>
 </html>

@@ -28,4 +28,11 @@ public class PaymentController {
 		
 		return"Payment/CartPaymentView";
 	}
+	
+	@RequestMapping("paymentResult.do")
+	public String CartResult() {
+		
+		return"Payment/PaymentResultView";
+	}
+	
 }

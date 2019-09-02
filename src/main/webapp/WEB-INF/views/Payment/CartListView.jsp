@@ -628,9 +628,9 @@ border-bottom:1px solid gray;
 						<span class="detail">총 <em id="totalGoodsCnt">2</em> 개의
 							상품금액 <strong id="totalGoodsPrice">97,000</strong>원
 						</span> <span id="deliveryCalculateNone"><img
-							src="../../img/etc/plus.png" alt="더하기">배송비 <strong
+							src="resources/img/etc/plus.png" alt="더하기">배송비 <strong
 							id="totalDeliveryCharge">0</strong>원</span> <span class="total"><img
-							src="../../img/etc/total.png" alt="합계"><strong
+							src="resources/img/etc/total.png" alt="합계"><strong
 							id="totalSettlePrice">97,000</strong>원 </span>
 					</p>
 					<div class="add_currency">

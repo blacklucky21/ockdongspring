@@ -13,7 +13,7 @@
 </style>
 <body>
 
-	<c:import url="../header/header"/>
+	<c:import url="../header/header.jsp"/>
 	<div class="content" style="width:100%; text-align:center">
 	
 	<div class="order-page" style="display:inline-block">
@@ -588,7 +588,7 @@ IMP.request_pay({
     pay_method : 'card',
     merchant_uid : 'merchant_' + new Date().getTime(),
     name : '주문명:또시락이에염',
-    amount : 14000,
+    amount : 100,
     buyer_email : 'iamport@siot.do',
     buyer_name : '구매자이름',
     buyer_tel : '010-1234-5678',
