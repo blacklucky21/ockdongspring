@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -30,7 +31,7 @@
 	<div class="div2">
 		<span><img src="resources/img/admin/set.png"></span>
 		<span><img src="resources/img/admin/bell.png"></span>
-		<span><img src="resources/img/admin/menu.png">전체메뉴 열기</span>
+		<span><img src="${ pageContext.request.contextPath }/img/admin/menu.png">전체메뉴 열기</span>
 	<div>
 		<span>운영자 님</span><!-- 여기에 로그인 정보 넣기 -->
 	</div>
@@ -58,7 +59,10 @@
         <li class="accor_has_sub">
           <strong class="menu_depth1">주문/배송 관리</strong>
             <ul class="acc_subject">
-                <li><a href="#" class="menu_depth2">주문통합 리스트</a></li>
+
+             
+                <li><a href="PaymentTotal.do" class="menu_depth2">주문통합 리스트</a></li>
+
                 <li><a href="#" class="menu_depth2">결제완료 리스트</a></li>
                 <li><a href="#" class="menu_depth2">반품 리스트</a></li>
             </ul>
@@ -111,4 +115,5 @@
 
 
 </body>
+
 </html>

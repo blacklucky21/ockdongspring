@@ -14,9 +14,21 @@ public class AdminController {
 		return "admin/adminMain";	
 	}
 	
-	@RequestMapping("productList.do")
+
+
+	@RequestMapping("adminPaymentList.do")
+	public String adminPaymentList() {
+		
+		return"admin/Payment/adminPayment";
+	}
+		@RequestMapping("productList.do")
 	public String productList() {
 		return "admin/products/productList";
+    
+	@RequestMapping("PaymentTotal.do")
+	public String paymentTotal() {
+		
+
 	}
 
 }
