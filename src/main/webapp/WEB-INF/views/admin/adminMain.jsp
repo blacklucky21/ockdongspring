@@ -7,8 +7,8 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <!-- css 시작 -->
-<link rel="stylesheet" href="${ pageContext.request.contextPath }/css/bootstrap.css">
-<link rel="stylesheet" href="${ pageContext.request.contextPath }/css/admin/frist.css">
+<link rel="stylesheet" href="resources/css/bootstrap.css">
+<link rel="stylesheet" href="resources/css/admin/frist.css">
 <!-- css 끝 -->
 
 <!-- js 시작 -->
@@ -21,7 +21,7 @@
 <body>
 <!-- 헤더 부름 -->
 
-<c:import url="header/hedaer.jsp"/>
+<c:import url="../admin/adminheader.jsp"/>
 <!-- 헤더 끝 -->
 
 <!-- 세션 영역 추가 하면 됨 -->
@@ -184,7 +184,7 @@
 </div>
 </section>
 
-<c:import url="footer/footer.jsp"/>
+
 
 </body>
 </html>

@@ -25,12 +25,12 @@
 <header class="top">
 <!-- 가로 영역 -->
 <div id="top_main">
-	<div class="div1"><img src="${ pageContext.request.contextPath }/img/admin/admin-logo.png"  alt="상단 로고" title="상단 로고" /></div>
+	<div class="div1"><img src="resources/img/admin/admin-logo.png"  alt="상단 로고" title="상단 로고" /></div>
 
 	<div class="div2">
-		<span><img src="${ pageContext.request.contextPath }/img/admin/set.png"></span>
-		<span><img src="${ pageContext.request.contextPath }/img/admin/bell.png"></span>
-		<span><img src="${ pageContext.request.contextPath }/img/admin/menu.png">전체메뉴 열기</span>
+		<span><img src="resources/img/admin/set.png"></span>
+		<span><img src="resources/img/admin/bell.png"></span>
+		<span><img src="resources/img/admin/menu.png">전체메뉴 열기</span>
 	<div>
 		<span>운영자 님</span><!-- 여기에 로그인 정보 넣기 -->
 	</div>
