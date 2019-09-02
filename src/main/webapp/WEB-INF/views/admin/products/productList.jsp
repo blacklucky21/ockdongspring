@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 <!-- css 시작 -->
 <link rel="stylesheet" href="resources/css/bootstrap.css">
-<link rel="stylesheet" href="resources/css/admin/frist.css">
+<link rel="stylesheet" href="resources/css/admin/productList.css">
 <!-- css 끝 -->
 
 <!-- js 시작 -->
@@ -25,7 +25,8 @@
 	<div class="warp">
 		<c:import url="views/admin/adminheader.jsp" />
 			<div class="content">
-		
+				등록
+				
 			</div>
 	</div>
 </body>
