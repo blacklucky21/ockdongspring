@@ -21,11 +21,12 @@
 <body>
 <!-- 헤더 부름 -->
 
-<c:import url="../admin/adminheader.jsp"/>
 <!-- 헤더 끝 -->
-
-	<div class="content">
+	<div class="warp">
+		<c:import url="views/admin/adminheader.jsp" />
+			<div class="content">
 		
+			</div>
 	</div>
 </body>
 </html>
