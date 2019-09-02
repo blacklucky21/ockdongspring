@@ -62,7 +62,7 @@ ul, li {
 }
 
 nav.mo_slide_menu {
-	position: fixed;
+	position: absolute;
 	left: 0;
 	width: 220px;
 	height: 100%;

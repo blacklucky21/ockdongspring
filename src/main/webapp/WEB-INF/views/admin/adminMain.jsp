@@ -14,7 +14,7 @@
 <!-- js 시작 -->
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="${ pageContext.request.contextPath }/js/admin/frist.js"></script>
+<script type="text/javascript" src="resources/js/admin/frist.js"></script>
 
 <!-- js 끝 -->
 </head>
@@ -37,7 +37,7 @@
                     <div class="present_summary_bx">
                         <div class="title">
                             <span>판매 현황</span>
-                            <span><img src="${ pageContext.request.contextPath }/img/admin/Refresh.png"></span>
+                            <span><img src="resources/img/admin/Refresh.png"></span>
                             <span class="summary_mini_title">최근 1개월</span>
                         </div>
                         <div class="items">
@@ -72,7 +72,7 @@
                     <div class="present_summary_bx">
                         <div class="title">
                             <span>상품 현황</span>
-                           	<span><img src="${ pageContext.request.contextPath }/img/admin/Refresh.png"></span>
+                           	<span><img src="resources/img/admin/Refresh.png"></span>
                             <span class="summary_mini_title">최근 1년</span>
                         </div>
                         <div class="items">
@@ -106,7 +106,7 @@
                     <div class="present_summary_bx">
                         <div class="title">
                             <span>취소/반품 현황</span>
-                        	<span><img src="${ pageContext.request.contextPath }/img/admin/Refresh.png"></span>
+                        	<span><img src="resources/img/admin/Refresh.png"></span>
                             <span class="summary_mini_title">최근 3개월</span>
                            
                         </div>
@@ -183,7 +183,6 @@
 	</div> 
 </div>
 </section>
-
 
 
 </body>
