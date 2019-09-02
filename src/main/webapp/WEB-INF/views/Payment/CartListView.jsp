@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -396,7 +397,7 @@ border-bottom:1px solid gray;
 </style>
 
 <body>
-	<jsp:include page='/views/header/header.jsp' />
+	<c:import url="../header/header.jsp"/>
 	<div id="content" style="width: 100%; text-align: center">
 		<div class="order-page" style="width: 1200px; display: inline-block">
 
@@ -650,11 +651,11 @@ border-bottom:1px solid gray;
 				</div>
 				<div>
 					<button type="button" class="skinbtn point1 cart-orderselect"
-						onclick="cart_process('orderSelect');">
+						onclick="location.href='CartSelectPayment.do'">
 						<em>선택 상품 주문</em>
 					</button>
 					<button type="button" class="skinbtn point2 cart-orderall"
-						onclick="order_all();">
+						onclick="location.href='CartAllPayment.do'">
 						<em>전체 상품 주문</em>
 					</button>
 				</div>
@@ -728,5 +729,5 @@ border-bottom:1px solid gray;
 	</script>
 
 </body>
-	<jsp:include page="/views/footer/footer.jsp"/>
+		<c:import url="../footer/footer.jsp"/>
 </html>

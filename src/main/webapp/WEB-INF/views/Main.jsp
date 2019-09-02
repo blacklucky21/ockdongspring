@@ -17,7 +17,7 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="resources/js/main/main.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script><!-- 이놈으로 모달 사용 가능 -->
-
+<!-- 브런치테스트 -->  
 <!-- js 끝 -->
 </head>
 <body>

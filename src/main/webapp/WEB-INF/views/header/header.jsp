@@ -104,7 +104,7 @@
 <!-- 회원가입 포인트 -->	
 </li>
 
-<li><a href="../order/cart.php">CART</a></li>
+<li><a href="CartView.do">CART</a></li>
 <li><a href="../mypage/order_list.php">ORDER</a></li>
 
 
