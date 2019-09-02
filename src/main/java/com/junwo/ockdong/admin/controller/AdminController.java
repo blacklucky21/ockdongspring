@@ -16,7 +16,7 @@ public class AdminController {
 	
 	@RequestMapping("productList.do")
 	public String productList() {
-		return "admin/product/productList";
+		return "admin/products/productList";
 	}
 
 }
