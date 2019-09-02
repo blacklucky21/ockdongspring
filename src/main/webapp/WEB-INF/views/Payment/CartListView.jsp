@@ -427,7 +427,7 @@ border-bottom:1px solid gray;
 					</tr>
 				</thead>
 				<tbody>
-
+					<c:forEach var='i' begin="0" end="5">
 					<tr class="">
 						<td rowspan="2" class="ta-c cb-array"><span
 							class="form-element"> <input type="checkbox"
@@ -488,132 +488,10 @@ border-bottom:1px solid gray;
 							</div>
 						</td>
 					</tr>
+			
+					</c:forEach>
 
-
-					<tr class="">
-						<td rowspan="2" class="ta-c cb-array"><span
-							class="form-element"> <input type="checkbox"
-								name="cartSno[]" id="cartSno1_9" value="9" class="checkbox"
-								checked="checked" data-price="48500" data-mileage="0"
-								data-goodsdc="0" data-memberdc="0" data-coupondc="0"
-								data-possible="y" /> <label for="cartSno1_9" class="check-s on">선택</label>
-						</span></td>
-						<td class="gi this-product"><span style="float: left;"><a
-								href="../goods/goods_view.php?goodsNo=1000000068"><img
-									src="https://taegon.kim/wp-content/uploads/2018/05/image-5.png"
-									width="40" alt="KNITTED SUMMER KIMONO NIGHT"
-									title="KNITTED SUMMER KIMONO NIGHT" class="middle"
-									class="imgsize-s" /></a></span>
-							<div style="">
-								<!-- <div id="coupon_apply_9">
-                                    <button type="button" class="btn-alert-login"><img src="/data/skin/front/no85/img/btn/coupon-apply.png" alt="쿠폰적용"/></button>
-                                </div> -->
-								<a href="../goods/goods_view.php?goodsNo=1000000068">도시락 지옥맛</a>
-
-
-								<dl>
-									<dt>재료 :</dt>
-									<dd>양상추</dd>
-
-								</dl>
-							<!-- 	<dl>
-									<dt>색상 :</dt>
-									<dd>빨강</dd>
-								</dl> -->
-
-							</div></td>
-						<td class="ta-c count this-product"><input type="text"
-							name="goodsCnt[]" value="1" title="수량" class="text"
-							data-stock-fl="n" data-total-stock="0" data-min-order-cnt="1"
-							data-max-order-cnt="0" data-sales-unit="1"
-							onchange="input_count_change(this,'1');return false;" />
-							<button type="button"
-								class="normal-btn small1 js-goods-cnt-change" data-sno="9"
-								data-goodsno="1000000068">
-								<em>수정</em>
-							</button></td>
-						<td class="ta-c this-product"><strong class="price">48,500원
-						</strong>
-							<p class="add_currency"></p></td>
-						<td rowspan="2" class="benefits"></td>
-						<td rowspan="2" class="ta-c"><strong class="price">48,500원</strong>
-							<p class="add_currency"></p></td>
-						<td rowspan="2" class="ta-c"><span class="c-gray"> 기본
-								- 금액별배송비<br /> 2,500원
-						</span></td>
-					</tr>
-					<tr class="op">
-						<td colspan="3">
-							<div>
-								<a href="#optionViewLayer"
-									class="btn-open-layer btn-option-layer normal-btn small1 btn-op"
-									data-goodsno="1000000068" data-sno="9"><em>옵션변경</em></a>
-							</div>
-						</td>
-					</tr>
-
-
-					<tr class="">
-						<td rowspan="2" class="ta-c cb-array"><span
-							class="form-element"> <input type="checkbox"
-								name="cartSno[]" id="cartSno1_9" value="9" class="checkbox"
-								checked="checked" data-price="48500" data-mileage="0"
-								data-goodsdc="0" data-memberdc="0" data-coupondc="0"
-								data-possible="y" /> <label for="cartSno1_9" class="check-s on">선택</label>
-						</span></td>
-						<td class="gi this-product"><span style="float: left;"><a
-								href="../goods/goods_view.php?goodsNo=1000000068"><img
-									src="https://taegon.kim/wp-content/uploads/2018/05/image-5.png"
-									width="40" alt="KNITTED SUMMER KIMONO NIGHT"
-									title="KNITTED SUMMER KIMONO NIGHT" class="middle"
-									class="imgsize-s" /></a></span>
-							<div style="display: block">
-								<!-- <div id="coupon_apply_9">
-                                    <button type="button" class="btn-alert-login"><img src="/data/skin/front/no85/img/btn/coupon-apply.png" alt="쿠폰적용"/></button>
-                                </div> -->
-								<a href="../goods/goods_view.php?goodsNo=1000000068">도시락 개꿀맛</a>
-
-
-								<dl>
-									<dt>사이즈 :</dt>
-									<dd>55</dd>
-
-								</dl>
-								<dl>
-									<dt>색상 :</dt>
-									<dd>빨강</dd>
-								</dl>
-
-							</div></td>
-						<td class="ta-c count this-product"><input type="text"
-							name="goodsCnt[]" value="1" title="수량" class="text"
-							data-stock-fl="n" data-total-stock="0" data-min-order-cnt="1"
-							data-max-order-cnt="0" data-sales-unit="1"
-							onchange="input_count_change(this,'1');return false;" />
-							<button type="button"
-								class="normal-btn small1 js-goods-cnt-change" data-sno="9"
-								data-goodsno="1000000068">
-								<em>수정</em>
-							</button></td>
-						<td class="ta-c this-product"><strong class="price">48,500원
-						</strong>
-							<p class="add_currency"></p></td>
-						<td rowspan="2" class="benefits"></td>
-						<td rowspan="2" class="ta-c"><strong class="price">48,500원</strong>
-							<p class="add_currency"></p></td>
-						<td rowspan="2" class="ta-c"><span class="c-gray"> 기본
-								- 금액별배송비<br /> 2,500원
-						</span></td>
-					</tr>
-					<tr class="op">
-						<td colspan="3">
-							<div>
-								<a href="#optionViewLayer"
-									class="btn-open-layer btn-option-layer normal-btn small1 btn-op"
-									data-goodsno="1000000068" data-sno="9"><em>옵션변경</em></a>
-							</div>
-						</td>
-					</tr>
+				
 
 				</tbody>
 

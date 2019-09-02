@@ -135,11 +135,11 @@
                 <div>
                     <p>
                         <span class="detail">총 <em>2</em>개의 상품금액 <strong>97,000</strong>원</span>
-                        <span><img src="../../img/etc/plus.png" alt="더하기">배송비 <strong>0</strong>원</span>
+                        <span><img src="resources/img/etc/plus.png" alt="더하기">배송비 <strong>0</strong>원</span>
                         <span class="total"><img src="resources/img/etc/total.png" alt="합계"><strong>97,000</strong>원
                         </span>
                     </p>
-                    <span class="mileage">적립예정 마일리지 : <span>0</span> 원</span>
+                    
                 </div>
             </div>
 </div>
