@@ -139,10 +139,16 @@
                         </div>
                          <div class="product_inquiry_content_wrap">
                             <div class="items">
-                                	<span class="ps_li le">미답변 문의</span>
-                                	<span class="ps_li ri">0</span>
-                                	<span class="ps_li le">전체문의 내역</span>
-									<span class="ps_li ri">0</span>
+                            	<ul class="summaryul">
+                                	<li class="summaryli">
+                                		<span class="ps_li le">미답변 문의</span>
+                                		<span class="ps_li ri">0</span>
+                                	<li>
+									<li>                                	
+                                		<span class="ps_li le">전체문의 내역</span>
+										<span class="ps_li ri">0</span>
+									<li>
+								</ul>	
                             </div>
                         </div>
                     </div>
@@ -157,7 +163,7 @@
 	 <div class="content_bot_wrap">
 	 	<!-- 회사 매출 -->
 	 	<div class="com profit">
-	 	<h1>회사 수입</h1>
+	 	<h3>회사 수입</h3>
 	 		<ul class="botul">
 	 			<li>
 	 				<span>금일 수입</span>
@@ -165,11 +171,11 @@
 	 			</li>
 	 			<li>
 	 				<span>월 수입</span>
-	 				<span class="sprofit">134443</span>
+	 				<span class="sprofit">1000000</span>
 	 			</li>
 	 			<li>
 	 				<span>금년 수입</span>
-	 				<span class="sprofit">2342343</span>
+	 				<span class="sprofit">10000000</span>
 	 			</li>
 	 			
 	 		</ul>
@@ -178,8 +184,25 @@
 	 	
 	 	<!-- 공지사항 -->
 	 	<div class="com notice">
+	 		<h3>공지 사항</h3>
+	 		<div class="notice_content_wrap">
+	 			<table class="notice_table">
+	 				<tbody class="notice_nobody_table">
+	 				<c:forEach var ="i" begin="0" end="5">
+	 					<tr>
+	 						<td class="notice_left"><span class="notice_title">[SNS마켓 성장지원 프로젝트] 제 2의 스타일난다를 찾습니다!</span></td>
+	 						<td class="notice_right"><span class="notice_date">2019-09-21</span></td>
+	 					</tr>	
+	 					</c:forEach>		
+	 				</tbody>
+	 			</table>
+	 		</div>
+	 		
 	 	</div>
 	 	<!-- 공지사항 끝 -->
+	 	
+	 	
+	 	
 	</div> 
 </div>
 </section>

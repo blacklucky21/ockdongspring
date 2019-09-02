@@ -65,8 +65,7 @@ nav.mo_slide_menu {
 	position: absolute	;
 	left: 0;
 	width: 220px;
-	height: 100%;
-	background: #333;
+	height: 94%;
 	color: #000;
 	overflow-y: auto;
 	background: linear-gradient(230deg, #dddfe6, #ebefe8);
@@ -118,3 +117,8 @@ nav.mo_slide_menu {
 .acc_subject li:first-child {
 	border: none;
 }
+
+
+
+
+

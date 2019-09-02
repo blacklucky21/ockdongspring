@@ -31,7 +31,7 @@
 	<div class="div2">
 		<span><img src="resources/img/admin/set.png"></span>
 		<span><img src="resources/img/admin/bell.png"></span>
-		<span><img src="${ pageContext.request.contextPath }/img/admin/menu.png">전체메뉴 열기</span>
+		<span><img src="resources/img/admin/menu.png">전체메뉴 열기</span>
 	<div>
 		<span>운영자 님</span><!-- 여기에 로그인 정보 넣기 -->
 	</div>

@@ -21,10 +21,10 @@ public class AdminController {
 
 		return"admin/Payment/adminPayment";
 	}
-//		@RequestMapping("productList.do")
-//	public String productList() {
-//		return "admin/products/productList";
-//		}
+	@RequestMapping("productList.do")
+	public String productList() {
+		return "admin/products/productList";
+		}
 		
 		
 	
