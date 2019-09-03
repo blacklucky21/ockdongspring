@@ -99,8 +99,8 @@
 <div class="topbar_right">
 <ul>
 
-<li><a href="location.href='loginView.me'">LOGIN</a></li>
-<li><a href="location.href='enrollView.me'">JOIN US</a>
+<li><a href="loginView.me">LOGIN</a></li>
+<li><a href="enrollView.me">JOIN US</a>
 <!-- 회원가입 포인트 -->	
 </li>
 
