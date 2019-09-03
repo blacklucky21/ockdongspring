@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -72,7 +73,7 @@ a {color:#fff;}
 </head>
 <body>
 	<!-- jsp:include를 사용하면 Context root가 자동으로 포함된다. -->
-	<jsp:include page="/views/header/header.jsp" />
+	<c:import url="../header/header.jsp"/>
 
 
 	<div style="width: 100%; height: 1200px; margin-top: 5%;">
@@ -196,7 +197,7 @@ a {color:#fff;}
 		</div>
 	</div>
 
-	<jsp:include page="/views/footer/footer.jsp" />
+	<c:import url="../footer/footer.jsp"/>
 
 
 

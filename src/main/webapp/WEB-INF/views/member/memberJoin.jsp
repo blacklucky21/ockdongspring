@@ -22,7 +22,7 @@
 	   <br><br><br>
    <div class="loginForm">
    <a href="<%=request.getContextPath() %>/index.jsp"><img class="image" src="<%=request.getContextPath() %>/img/mainlogo.png" id="logo" align="center"></a>
-   <form id="joinForm" name="joinForm" action="<%=request.getContextPath()%>/insertUser.me" method="post" onsubmit="return validate();">
+   <form id="joinForm" name="joinForm" action="<%=request.getContextPath()%>/memberJoin.me" method="post" onsubmit="return validate();">
          <table align="center">
             <tr>
                <th width="100px" height="40px">아이디</th>

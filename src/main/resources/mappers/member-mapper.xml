@@ -9,4 +9,20 @@
 		where userId=#{userId} and status = 'Y'
 	</select>
 	
+	<!-- memberJoin -->
+	<insert id="memberJoin" parameterType="Member">
+		insert into member
+		values(
+			#{USERID},
+			#{PASSWORD},
+			#{NICKNAME},
+			#{EMAIL},
+			#{ADDRESS},
+			#{PHONE},
+			sysdate,
+			sysdate,
+			default
+		)
+	</insert>
+	
 </mapper>

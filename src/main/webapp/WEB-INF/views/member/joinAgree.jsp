@@ -157,7 +157,7 @@ FARMER RECIPE는 회원관리, 서비스 개발・제공 및 향상, 안전한 �
 				return;
 			}
 			
-			location.href="<%=request.getContextPath()%>/views/member/memberJoin.jsp";
+			location.href="memberJoin.me";
 		}
 	</script>
 
